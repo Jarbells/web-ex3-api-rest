@@ -1,0 +1,18 @@
+# ambiente virtual nao e necessario
+venv/
+
+# arquivos compilados do python - lixo gerado automaticamente
+__pycache__/
+*.pyc
+
+# banco de dados local - não sobe, pois muda localmente
+*.db
+comunidade.db
+
+# arquivos de sistema e ide
+.vscode/
+.idea/
+.DS_Store
+
+# chaves e senhas - nao subir
+.env
